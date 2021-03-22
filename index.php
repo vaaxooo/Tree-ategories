@@ -21,7 +21,7 @@ function сreateTree($categories, $index = 0)
             }
             else
             	{
-				$array[$category['categories_id']] = $category['categories_id'];
+		$array[$category['categories_id']] = $category['categories_id'];
             }
         }
     }
